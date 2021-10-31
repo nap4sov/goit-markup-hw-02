@@ -40,6 +40,7 @@ body {
   text-decoration: none;
 }
 .contact-footer {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -48,6 +49,7 @@ body {
   text-decoration: none;
 }
 .address {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
