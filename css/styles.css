@@ -2,9 +2,9 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #757575;
   width: 1600px;
-  background-color: bisque;
+  /* background-color: bisque; */
 }
-/* Logo */
+/* Logo & navigation */
 .logo {
   font-family: Raleway;
   font-weight: bold;
@@ -21,8 +21,6 @@ body {
 .logo-studio-footer {
   color: #ffffff;
 }
-
-/* Navigation links */
 .nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -30,9 +28,6 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
-}
-.nav-link:hover {
-  color: #2196f3;
 }
 
 /* Contacts & address */
@@ -43,9 +38,6 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
-}
-.contact-header:hover {
-  color: #2196f3;
 }
 .contact-footer {
   font-weight: normal;
@@ -63,6 +55,19 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
+
+/* Links hover & focus */
+.nav-link:hover,
+.nav-link:focus,
+.contact-header:hover,
+.contact-header:focus,
+.contact-footer:hover,
+.contact-footer:focus,
+.address:hover,
+.address:focus {
+  color: #2196f3;
+}
+
 /* .footer-contacts {
   margin-left: 215px;
 } */
