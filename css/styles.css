@@ -1,8 +1,12 @@
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   color: #757575;
+  background: #ffffff;
   width: 1600px;
-  /* background-color: bisque; */
 }
 /* Logo & navigation */
 .logo {
@@ -70,10 +74,6 @@ body {
   color: #2196f3;
 }
 
-/* .footer-contacts {
-  margin-left: 215px;
-} */
-
 /* Headings */
 .main-heading {
   font-weight: 900;
@@ -139,6 +139,10 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+.hero-button:hover,
+.hero-button:focus {
+  background: #188ce8;
+}
 .button-list-item {
   font-weight: 500;
   font-size: 16px;
@@ -151,7 +155,8 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
 }
-.button-list-item:hover {
+.button-list-item:hover,
+.button-list-item:focus {
   color: #ffffff;
   cursor: pointer;
   background: #2196f3;
