@@ -7,6 +7,10 @@ body {
   background: #ffffff;
   width: 1600px;
 }
+.list {
+  list-style: none;
+}
+
 /* Logo & navigation */
 .logo {
   font-family: Raleway;
@@ -69,7 +73,8 @@ body {
 .contact-footer:hover,
 .contact-footer:focus,
 .address:hover,
-.address:focus {
+.address:focus,
+.nav-link.current {
   color: #2196f3;
 }
 
